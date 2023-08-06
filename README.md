@@ -24,7 +24,7 @@ A bike-sharing system allows individuals to rent bikes for short periods, either
 - Variables that are significant in predicting the demand for shared bikes are as follows: `windspeed`,`weekday`,`mnth`,`workingday`,`yr`,`weathersit` and `holiday`.
 - We can see that the equation of our best fitted line is:
 
-cnt = 0.206 \times yr + 0.194 \times mnth - 0.120 \times holiday + 0.046 \times weekday + 0.033 \times workingday - 0.228 \times weathersit - 0.253 \times windspeed
+cnt = 0.206 * yr + 0.194 * mnth - 0.120 * holiday + 0.046 * weekday + 0.033 * workingday - 0.228 * weathersit - 0.253 * windspeed
 
 - An R-squared score of 0.3999719805715999 is obtainted from the model, meaning that approximately 40% of the variance in the dependent variable is explained by the independent variables in your model.
 
